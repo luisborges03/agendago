@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="agendago" name="AgendaGo - Diagrama de Classes">
-    <mxGraphModel dx="1776" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1493" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,18 +130,18 @@
         <mxCell id="ItemVenda_m" parent="ItemVenda" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+calcularSubtotal() : double" vertex="1">
           <mxGeometry height="20" width="200" y="54" as="geometry" />
         </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="LotacaoEsgotadaException" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;" target="RegraNegocioException" value="">
+        <mxCell id="e1" edge="1" parent="1" source="LotacaoEsgotadaException" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;strokeWidth=2;" target="RegraNegocioException" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e2" edge="1" parent="1" source="Bilheteria" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;dashed=1;" target="LotacaoEsgotadaException" value="lança">
+        <mxCell id="e2" edge="1" parent="1" source="Bilheteria" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;dashed=1;strokeWidth=3;" target="LotacaoEsgotadaException" value="lança">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3" edge="1" parent="1" source="Bilheteria" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;dashed=1;" target="Tarifavel" value="calcula total de">
+        <mxCell id="e3" edge="1" parent="1" source="Bilheteria" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;dashed=1;strokeWidth=3;" target="Tarifavel" value="calcula total de">
           <mxGeometry relative="1" x="-0.1398" y="-13" as="geometry">
             <mxPoint x="-13" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e4" edge="1" parent="1" source="Ingresso" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;dashed=1;" target="Tarifavel" value="">
+        <mxCell id="e4" edge="1" parent="1" source="Ingresso" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;dashed=1;strokeWidth=3;" target="Tarifavel" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="440" y="310" />
@@ -149,10 +149,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e5" edge="1" parent="1" source="Estacionamento" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;dashed=1;" target="Tarifavel" value="">
+        <mxCell id="e5" edge="1" parent="1" source="Estacionamento" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;dashed=1;strokeWidth=3;" target="Tarifavel" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6" edge="1" parent="1" source="Inteira" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;" target="Ingresso" value="">
+        <mxCell id="e6" edge="1" parent="1" source="Inteira" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;strokeWidth=2;" target="Ingresso" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="310" y="540" />
@@ -160,7 +160,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e7" edge="1" parent="1" source="MeiaEntrada" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;" target="Ingresso" value="">
+        <mxCell id="e7" edge="1" parent="1" source="MeiaEntrada" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;strokeWidth=2;" target="Ingresso" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="440" y="540" />
@@ -168,7 +168,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e8" edge="1" parent="1" source="Vip" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;" target="Ingresso" value="">
+        <mxCell id="e8" edge="1" parent="1" source="Vip" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;startSize=9;strokeWidth=2;" target="Ingresso" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="670" y="540" />
@@ -210,8 +210,8 @@
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e11" edge="1" parent="1" source="Venda" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;startArrow=diamondThin;startFill=1;endArrow=none;" target="ItemVenda" value="é composta por &gt;">
-          <mxGeometry relative="1" x="-0.0909" y="-13" as="geometry">
+        <mxCell id="e11" edge="1" parent="1" source="Venda" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;startArrow=diamondThin;startFill=1;endArrow=none;startSize=25;strokeWidth=3;" target="ItemVenda" value="é composta por &gt;">
+          <mxGeometry relative="1" x="-0.0909" y="-23" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="620" y="807" />
@@ -229,7 +229,7 @@
             <mxPoint x="-3" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e12" edge="1" parent="1" source="ItemVenda" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="Tarifavel" value="refere-se a &gt;">
+        <mxCell id="e12" edge="1" parent="1" source="ItemVenda" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;exitX=1;exitY=0.5;entryX=1;entryY=0.5;strokeWidth=3;" target="Tarifavel" value="refere-se a &gt;">
           <mxGeometry relative="1" x="-0.0332" as="geometry">
             <Array as="points">
               <mxPoint x="940" y="797" />
